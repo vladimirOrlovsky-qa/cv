@@ -72,7 +72,6 @@ h3 {
   justify-content: center;
   align-items: center;
   grid-area: title;
-  align-items: center;
 }
 
 .container {
@@ -85,7 +84,7 @@ h3 {
 .hero__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 a.rull {
@@ -143,7 +142,6 @@ a.rull:hover {
 
 .hero__link {
   margin-right: 10px;
-
   font-size: 30px;
   color: rgb(0, 183, 255);
 }
@@ -157,7 +155,7 @@ a.rull:hover {
   max-width: 300px;
   justify-self: center;
   overflow: hidden;
-  border: 5px solid #fff;
+  border: 1px solid #fff;
 
   background-image: linear-gradient(to right, #48fd00 0%, #e00af3 100%);
 
@@ -166,7 +164,7 @@ a.rull:hover {
 }
 
 .hero__box-img {
-  animation: ava-bg 3s infinite alternate;
+  animation: ava-bg 4s infinite alternate;
 }
 
 @media screen and (max-width: 978px) {
@@ -210,19 +208,19 @@ a.rull:hover {
 
 @keyframes ava-animate {
   0% {
-    border-radius: 62% 38% 72% 28% / 67% 32% 68% 33%;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
   }
 
   40% {
-    border-radius: 37% 63% 53% 47% / 67% 32% 68% 33%;
+    border-radius: 33% 67% 44% 56% / 58% 57% 43% 42%  ;
   }
 
   60% {
-    border-radius: 23% 77% 39% 61% / 78% 54% 46% 22%;
+    border-radius: 24% 76% 30% 70% / 65% 29% 71% 35% ;
   }
 
   100% {
-    border-radius: 18% 82% 24% 76% / 43% 54% 46% 57%;
+    border-radius: 11% 89% 6% 94% / 93% 4% 96% 7%   ;
   }
 }
 
@@ -254,7 +252,7 @@ a.rull:hover {
   border: 0px;
   justify-content: center;
   text-decoration: none; 
-  background:#222; 
+  background:var(--background); 
   color:rgb(0, 183, 255); 
   padding:1px; 
   border-radius:1px; 
