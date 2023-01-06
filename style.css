@@ -148,7 +148,7 @@ a.rull:hover {
   overflow: hidden;
   border: 1px solid #fff;
 
-  background-image: linear-gradient(to right, #48fd00 0%, #e00af3 100%);
+  background-image: linear-gradient(to right, #b6d2dd 0%, #5fb0cf 100%);
 
   animation: ava-animate 5s infinite alternate;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
