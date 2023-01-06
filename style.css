@@ -118,6 +118,15 @@ a.rull:hover {
   margin-bottom: 20px;
 }
 
+.hero__title span {
+	display: inline;
+	background-color: rgb(0, 183, 255);
+	box-shadow: -1px 0 0 hsl(197, 100%, 50%), 3px 0 0 #00c3ff;
+	padding: 1px 0;
+	color: #FFFFFF;
+	font-size: 45px;
+}
+
 .hero__prof {
   color: #4facfe;
   white-space: nowrap;
@@ -140,15 +149,15 @@ a.rull:hover {
 }
 
 .hero__link:hover {
-  color: #fe4f6c;
+  color: rgb(254, 79, 108);
 }
 
 
 .hero__box {
-  max-width: 500px;
+  max-width: 300px;
   justify-self: center;
   overflow: hidden;
-  border: 10px solid #fff;
+  border: 5px solid #fff;
 
   background-image: linear-gradient(to right, #48fd00 0%, #e00af3 100%);
 
@@ -192,7 +201,7 @@ a.rull:hover {
   }
 
   .hero__box {
-    max-width: 350px;
+    max-width: 250px;
     justify-self: center;
   }
 }
@@ -227,4 +236,31 @@ a.rull:hover {
   }
 
   
+}
+
+.backlight {
+	font-size: 50px;
+	line-height: 56px;	
+	color: #000;
+}
+.backlight span {
+	padding: 0 10px;
+	background: rgba(37,219,237,0.8);
+}
+
+.men {
+  width: 100px;
+  font-size: 15px;
+  border: 0px;
+  justify-content: center;
+  text-decoration: none; 
+  background:#222; 
+  color:rgb(0, 183, 255); 
+  padding:1px; 
+  border-radius:1px; 
+  transition: all 0.3s 0.01s ease; 
+  
+}
+.men:hover {
+  background:rgb(254, 79, 108);
 }
