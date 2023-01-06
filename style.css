@@ -251,3 +251,9 @@ a.rull:hover {
   background:rgb(254, 79, 108);
 }
 
+.menu {
+  display: flex;
+  margin-top:20px; 
+  list-style: none; 
+  text-align: center;
+}
