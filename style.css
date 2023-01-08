@@ -245,10 +245,6 @@ a.rull:hover {
   padding: 15px;
   border-radius:5px; 
   transition: all 0.3s 0.01s ease; 
-  display: flex;
-  margin-top:20px; 
-  list-style: none; 
-  text-align: center;
 }
 .men:hover {
   background:rgb(254, 79, 108);
